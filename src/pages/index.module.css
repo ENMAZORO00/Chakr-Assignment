@@ -1,0 +1,33 @@
+.Container{
+    display: flex;
+    background: #F1F1F1;
+    padding: 10px;
+}
+.sidenav{
+    display: flex;
+    width: 320px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 16px;
+    background: var(--White, #FFF);
+    }
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 270px;
+    gap: 20px;
+    padding-left: 30px; 
+}
+.sidenavcomponents{
+     display: flex;
+    width: 270px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding-left: 30px; 
+    
+}
